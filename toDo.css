@@ -1,0 +1,74 @@
+body{
+    background-color: #ffffff;
+    
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px;
+}
+.toDo{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    padding-top: 3rem;
+    margin: auto;
+    border-radius: 2rem;
+    border: 2px solid black;
+    
+    
+}
+.in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.in button{
+    background-color: white;
+    color:black;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    
+    padding: 0.3rem;
+}
+
+.in input{
+    background-color:white;
+    color: black;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    
+}
+
+.res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.res button{
+    margin: 0.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+}
+
+.res ul li{
+    list-style-type: none;
+    margin-right: 4rem;
+    background-color: aliceblue;
+    margin-bottom: 1rem;
+    padding:0 1rem;
+    border:2px solid black;
+    box-shadow: 2px 3px;
+}
+
